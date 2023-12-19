@@ -1,0 +1,268 @@
+<html>
+<head>
+    <title>food App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .nav-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 28px;
+            text-align: center;
+
+        
+        }
+        li{
+            list-style: none;
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        .home{
+            background-image: url("C:internship/assinment 1/Rectangle 48.jpg");
+            background-size: cover;
+            height: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            font-family: Poppins;
+            font-weight: 70;
+            text-align: center;
+            line-height: 50px;
+            
+
+        }
+        .btn1{
+            font-size: 20px;
+            background-color: orangered;
+            color:white;
+            border: none;
+            border: 1px solid white;
+            border-radius: 30px;
+            font-family: Montserrat;
+             font-weight: 700;
+            line-height: 36px;
+            font-size: 14px;
+
+        }
+        .btn2{
+            font-size: 20px;
+            background-color: transparent;
+            color: white;
+            border: none;
+            border: 1px solid orangered;
+            border-radius: 30px;
+            font-weight: 200;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 36px;
+            
+            
+        }
+        .svg{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .hero-section{
+            margin-top: 450px;
+        }
+        .hero1{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        .hero-item{
+            margin-top: 20%;
+        }
+        .hero2{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        .hero3{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+
+        .visitsection{
+            background-image: url("C:internship/assinment 1/Rectangle 4.jpg");
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        span{
+            display: none;
+        }
+
+        @media(max-width:512px) {
+            .nav-item li{
+                display: none;
+            }
+            
+            .home{
+                background-image: none;
+                color: black;
+                
+            }
+            .bar {
+                display:block;
+        
+            }
+            .btn{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                margin-left: 120px;
+                gap: 10px;
+            }
+            .btn2{
+                color: black;
+                border: 1px solid orangered;
+            }
+           
+            .hero1{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+            .hero2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .hero3{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+            .visitsection{
+
+                background-image: none;
+                background-color: #252B42;
+                
+            }
+            .visitsection .btn{
+                margin-right: 100px;
+                gap: 10px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            
+                <img src="C:\internship\assinment 1\Bella Olonje logo 111 1.png" height="90" width="140">
+                <ul class="nav-item">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>Faq</li>
+                    <li>Contact</li>
+                </ul>
+                <span class="bar">
+                    <i class="fa fa-bars" style="font-size:24px"></i></span>
+        </div>
+
+        <div class="home">
+            <h4 style="color: white;">Food aap</h4>
+            <h1>why stay hungry when<br> you can order from bella onohie</h1>
+            <h4>Download the bella onohie food app now on</h4>
+            <div class="btn">
+                <button class="btn1">Play store</button>
+                <button class="btn2">App store</button>
+            </div>
+            <div class="svg">
+                <img src="C:\internship\assinment 1\Rectangle1.png" alt="">
+                <img src="C:\internship\assinment 1\Rectangle.png" alt="">
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <hr style="width: 50%;color: #E4E4E4;">
+            <h3 style="font-family: Poppins;font-size: 44px;text-align: center;">How the app work</h3>
+            <div class="hero1">
+                <div class="hero-img">
+                    <img src="C:\internship\assinment 1\Rectangle2.png">
+                </div>
+                <div class="hero-item">
+                    <h3 style="color:#FA4A0C ;">Create an account</h3>
+                    <h1>Create/login to an existing <Br>account to get started</h1>
+                    <p style="color: #737373;">An account is created with your email <br>and a desired password</p>
+                </div>
+            </div>
+            <div class="hero2">
+                
+                <div class="hero-item">
+                    <h3 style="color:#FA4A0C ;">Explore varieties</h3>
+                    <h1>Shop for your favorites meal <br>as e dey hot.</h1>
+                    <p style="color: #737373;">Shop for your favorite meals or drinks <br>and enjoy while doing it.</p>
+                </div>
+                <div class="hero-img">
+                    <img src="C:\internship\assinment 1\Rectangle3.png">
+                </div>
+            </div>
+            <div class="hero3">
+                <div class="hero-img">
+                    <img src="C:\internship\assinment 1\Rectangle4.png">
+                </div>
+                <div class="hero-item">
+                    <h3 style="color:#FA4A0C ;">Checkout</h3>
+                    <h1>When you done check out<br> and get it delivered.</h1>
+                    <p style="color: #737373;">When you done check out and get it delivered with ease.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="visitsection">
+            
+            <h1>Download the app now.</h1>
+            <h4 style="font-family: Montserrat;"> Available on your favorite store. Start your premium experience now</h4>
+            <div class="btn">
+                <button class="btn1">Play store</button>
+                <button class="btn2">App store</button>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <div class="logo">
+                <img src="C:\internship\assinment 1\Bella Olonje logo 111 1.png" height="90" width="140">
+            </div>
+            <div class="icon">
+                <img src="C:\internship\assinment 1\social media.png" height="50" width="80">
+                
+            </div>
+            <div class="copyright">
+                Copywright 2020 Bella Onojie.com
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
